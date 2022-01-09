@@ -1,0 +1,11 @@
+[package]
+name = "f1-2021-rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+binrw = "0.8.0"
+smallvec = { version = "1.7.0", features = ["union"] }
+uom = { version = "0.31.1", default-features = false, features = ["u8", "u16", "i8", "i16", "f32", "u32", "f64", "si", "std"] }
